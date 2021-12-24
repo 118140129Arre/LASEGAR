@@ -1,0 +1,1 @@
+DirectoryIndex index.phpRewriteEngine OnRewriteCond %{SCRIPT_FILENAME} !-dRewriteCond %{SCRIPT_FILENAME} !-fRewriteRule ^ index.php [L]RewriteRule !^(public/|index\.php) [NC,F]
